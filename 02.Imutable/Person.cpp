@@ -1,6 +1,6 @@
 
 #include "Person.hpp"
-Person::Person(std::string _name,std::string _address):name(name),address(_address){
+Person::Person(std::string _name,std::string _address):name(_name),address(_address){
 }
 std::string Person::getName(){
     return name;

@@ -3,14 +3,14 @@ import java.util.Random;
 public class ClientThread extends Thread {
     private final Random random;
     private final RequestQueue requestQueue;
-    public ClientThread(RequestQueue requestQueue, String name, long seed) {
+    public ClientThread(RequestQueue requestQueue, String name) {
         super(name);
         this.requestQueue = requestQueue;
         this.random = new Random(seed);
     }
     public void run() {
         for (int i = 0; i < 10000; i++) {
-            Request request = new Request("No." + i);
+            Request request = new Request("No." + std::String());
             System.out.println(Thread.currentThread().getName() + " requests " + request);
             requestQueue.putRequest(request);
             try {
