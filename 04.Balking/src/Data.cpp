@@ -29,7 +29,6 @@ void Data::doSave(){
     try{
         std::ofstream ofs(filename);
         ofs << content <<std::endl;
-        ofs.close();
     }catch(const char* e){
         throw e;
     }
