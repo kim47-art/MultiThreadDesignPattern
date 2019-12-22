@@ -8,7 +8,7 @@
 |〇|~11/10| Read-Write Lock - みんなで読むのはいいけれど、読んでる間は書いちゃだめ| 
 |〇|~11/24| Thread-Per-Message - この仕事、やっといてね| 
 |〇|~12/8| Worker Thread - 仕事が来るまで待ち、仕事が来たら働く| 
-|　|~12/22| Future - 引換券を、お先にどうぞ| 
+|〇|~12/22| Future - 引換券を、お先にどうぞ| 
 |　|~1/5| Two-Phase Termination - 後片付けしてから、おやすみなさい| 
 |　|~1/19| Thread-Specific Storage - スレッドごとのコインロッカー|
 |　|~2/2| Active Object - 非同期メッセージを受け取る、能動的なオブジェクト| 
